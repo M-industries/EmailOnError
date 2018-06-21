@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+SCRIPTDIR=$(dirname "$0")
+node "$SCRIPTDIR"/email-on-error.js "$@"

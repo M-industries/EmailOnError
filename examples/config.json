@@ -1,0 +1,12 @@
+{
+	"host": "smtp-relay.gmail.com",
+	"port": 465,
+	"ssl": ["yes", {}],
+	"domain": "some_domain.example.org",
+	"authentication": ["none", {}],
+	"from": "Some name <noreply@example.org>",
+	"to": {
+		"whoever@example.org": {}
+	},
+	"subject prefix": "[Example prefix] "
+}
